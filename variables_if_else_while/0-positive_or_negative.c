@@ -14,6 +14,6 @@ int main(void)
 	if else (n<0)
 	printf("le nombre est negative")
 	if else (n=0)
-	printf("le nombre egale a zero")	
+	printf("le nombre est zero")	
 	return (0);
 }
