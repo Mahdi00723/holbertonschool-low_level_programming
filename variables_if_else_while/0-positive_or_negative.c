@@ -13,11 +13,11 @@ int main(void)
 	{
 	printf("le nombre est positif")
 	}
-	if else (n<0)
+	else if (n<0)
 	{	
 	printf("le nombre est negative")
 	}	
-        else
+        else if
 	{	
 	printf("le nombre est zero")
 	}	
