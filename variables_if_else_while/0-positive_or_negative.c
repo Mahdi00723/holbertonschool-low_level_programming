@@ -11,9 +11,9 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n>0)
 	printf("le nombre est positif")
-	else (n<0)
+	if else (n<0)
 	printf("le nombre est negative")
-	else (n=0)
+	if else (n=0)
 	printf("le nombre egale a zero")	
 	return (0);
 }
