@@ -1,3 +1,8 @@
+/*
+* file: 1-last_digit.c
+ auth: mahdi dammak
+*/
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
