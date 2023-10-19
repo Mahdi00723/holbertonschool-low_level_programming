@@ -5,7 +5,7 @@
  * Return: Always (Success)
  * @n: number
  */
-int print_sign(int n)
+int print_sign(int n);
 {
 	if (n > 0)
 	{
