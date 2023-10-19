@@ -41,15 +41,4 @@ int main(void)
 
     return 0;
 }
-In this code, the print_sign function takes an integer n as input, and it performs the following:
-
-If n is greater than zero, it prints "+" and returns 1.
-If n is zero, it prints "0" and returns 0.
-If n is less than zero, it prints "-" and returns -1.
-You can call the print_sign function with the number you want to check, and it will print the sign and return the corresponding value (1, 0, or -1) based on the sign of the input number.
-
-
-
-
-
 
