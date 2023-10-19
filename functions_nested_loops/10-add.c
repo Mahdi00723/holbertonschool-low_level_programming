@@ -1,31 +1,16 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
- * times_table - Prints the 9 times table, starting with 0.
+ * add - adds two integers together
+ * @A: integer
+ * @B: integer
+ * sum: integer
+ * Return: result of the addition
  */
-void times_table(void)
+
+int add(int A, int B)
 {
-	int num, mult, prod;
+	int sum = 0;
 
-	for (num = 0; num <= 9; num++)
-	{
-		_putchar('0');
-
-		for (mult = 1; mult <= 9; mult++)
-		{
-			_putchar(',');
-			_putchar(' ');
-
-			prod = num * mult;
-
-			if (prod <= 9)
-				_putchar(' ');
-			else
-				_putchar((prod / 10) + '0');
-
-			_putchar((prod % 10) + '0');
-		}
-		_putchar('\n');
-	}
+	sum = A + B;
+	return (sum);
 }
