@@ -10,9 +10,9 @@
   */
 
 void puts2(char *str);
-
-int main(void) 
 {
+int main(void) 
+
     puts2("Holberton!");
     puts2("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
     puts2("");
