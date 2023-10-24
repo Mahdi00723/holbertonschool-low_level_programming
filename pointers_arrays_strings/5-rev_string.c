@@ -2,21 +2,21 @@
 #include "string.h"
 
 /**
-  * rev_string - Reverses a string
-  * @s: The string to be modified
-  *
-  * Return: void
-  */
-void rev_string(char *s) 
+ * rev_string - Reverses a string
+ * description :
+ * @s: The string to be modified
+ * Return: void
+ */
+void rev_string(char *s)
 {
-    int length = strlen(s);
-    int i;
+	int len = strlen(s);
+	int i;
 
-    for (i = 0; i < length / 2; i++) 
-    {
-        char temp = s[i];
+	for (i = 0; i < len / 2; i++)
+	{
+		char temp = s[i];
 
-        s[i] = s[length - i - 1];
-        s[length - i - 1] = temp;
-    }
+		s[i] = s[len - i - 1];
+		s[len - i - 1] = temp;
+	}
 }
