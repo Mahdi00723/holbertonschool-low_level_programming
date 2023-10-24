@@ -4,7 +4,7 @@
 /**
   * rev_string - Reverses a string
   * @s: The string to be modified
-  *description: 
+  *
   * Return: void
   */
 void rev_string(char *s) 
@@ -20,4 +20,3 @@ void rev_string(char *s)
         s[length - i - 1] = temp;
     }
 }
-
