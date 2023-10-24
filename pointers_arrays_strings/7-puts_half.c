@@ -1,13 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
-
 /**
-  * puts_half - Prints half of a string
-  * @str: The string to print
-  *
-  * Return: void
-  */
+ * puts2 - function that reverses a string.
+ * Return: Always  (Success)
+ * @str : pointeur
+ */
 void puts_half(char *str)
 {
 	int j = 0;
