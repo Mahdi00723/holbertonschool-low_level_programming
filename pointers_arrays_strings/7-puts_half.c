@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * puts2 - function that reverses a string.
- * Return: Always  (Success)
+ * puts_half - Prints half of a string
+ * Return: void
  * @str : pointeur
  */
 void puts_half(char *str)
