@@ -1,30 +1,22 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
-
 /**
-  * puts2 - Prints every other character of a string
-  * @str: The string to be treated
-  *
-  * Return: void
-  */
-
-void puts2(char *str);
+ * puts2 - function that reverses a string.
+ * Return: Always  (Success)
+ * @str : pointeur
+ */
+void puts2(char *str)
 {
-int main(void) 
+	int i = 0;
 
-    puts2("Holberton!");
-    puts2("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
-    puts2("");
-
-    return 0;
-}
-
-void puts2(char *str) 
-{
-    for (int i = 0; str[i] != '\0'; i += 2) 
-    {
-        putchar(str[i]);
-    }
-    putchar('\n');
-}
+	while (str[i] != '\0')
+	{
+		if (i % 2 == 0)
+		{
+			printf("%c", str[i]);
+		}
+		i = i + 1;
+	}
+	printf("\n");
+ }
