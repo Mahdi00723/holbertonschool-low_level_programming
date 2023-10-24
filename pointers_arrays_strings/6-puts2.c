@@ -9,12 +9,22 @@
   * Return: void
   */
 
-void puts2(char *str)
+void puts2(char *str);
+
+int main(void) 
 {
-    	int i;
-    	for (i = 0; str[i] != '\0'; i += 2) 
-    	{	
+    puts2("Holberton!");
+    puts2("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
+    puts2("");
+
+    return 0;
+}
+
+void puts2(char *str) 
+{
+    for (int i = 0; str[i] != '\0'; i += 2) 
+    {
         putchar(str[i]);
-    	}
-    	putchar('\n');
+    }
+    putchar('\n');
 }
